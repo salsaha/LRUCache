@@ -102,7 +102,7 @@ public class LRUCacheTests extends TestCase {
 	}
 
 	public void testApp() throws Exception {
-		//initializeCacheWithData_caheGrownBeyondMaxSize_evictLeaseRecentlyUsedKey();
+		initializeCacheWithData_caheGrownBeyondMaxSize_evictLeaseRecentlyUsedKey();
 		initializeCache_multipleThreadsAreWriting_valuesAreWrittenCorrectlyIntoCache();
 	}
 }
